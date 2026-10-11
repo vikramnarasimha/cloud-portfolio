@@ -1,0 +1,16 @@
+[
+    {
+        "id": 1,
+        "date": "2026-10-11",
+        "title": "Cloud Run Scale-to-Zero & IAM Permissions",
+        "category": "Cloud Architecture",
+        "content": "Configured cloud-native deployment with strict --min-instances 0 to maintain £0/mo Always Free limits. Resolved Artifact Registry IAM push blockers by binding repository-level roles."
+    },
+    {
+        "id": 2,
+        "date": "2026-10-10",
+        "title": "Introduction to Data Engineering",
+        "category": "Cloud Architecture",
+        "content": "The introduction to data engineering talked about the role of the data engineer - to build data pipelines. What really is a data pipeline. The data pipeline is described in google terminology / architecture as comprising of 4 stages. Replication. Ingestion. Transform. Store. The replication stage is all about the tooling that allows you to take data and making it available in google cloud. These tools are \n a) gcloud storage cp commands for copying small to medium data, \n b) Storage Transfer Service , \n c) Transfer Appliance and Data Streams. "
+    }
+]
